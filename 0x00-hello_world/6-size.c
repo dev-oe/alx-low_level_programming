@@ -1,5 +1,9 @@
 #include <stdio.h>
-int main (void)
+/**
+ * main - entry point
+ * Return: always 0c(success)
+*/
+int main(void)
 {
 	printf("Size of an char: %i byte(s)\n", sizeof(char));
 	printf("Size of an int: %i byte(s)\n", sizeof(int));
